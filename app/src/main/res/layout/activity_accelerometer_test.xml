@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="442dp"
+        android:text="Shake to get a toast and to switch color"
+        android:layout_weight="0.92" />
+
+    <TextView
+        android:text="Light Readings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button" />
+
+    <TextView
+        android:text="0"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/lightReadingsText"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+</LinearLayout>
