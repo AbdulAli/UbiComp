@@ -1,4 +1,4 @@
-package assignment1_longitude_latitude;
+package com.assignment1_longitude_latitude;
 
 import android.content.Context;
 import android.location.Location;

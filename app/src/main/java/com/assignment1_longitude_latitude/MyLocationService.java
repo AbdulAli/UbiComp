@@ -35,8 +35,6 @@ public class MyLocationService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        // Let it continue running until it is stopped.
-        Toast.makeText(this, "Service Start", Toast.LENGTH_LONG).show();
         addListenerLocation();
         return START_STICKY;
     }

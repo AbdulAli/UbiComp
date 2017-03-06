@@ -13,17 +13,10 @@
     tools:context="com.ubicomp.main.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Ubiquitous computing"
-        android:layout_marginBottom="50dp"
-        android:id="@+id/textBox" />
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Start!"
+        android:text="Get Lat/Long"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="34dp"
@@ -32,7 +25,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Stop!"
+        android:text="Get Address"
         android:id="@+id/stopbtn"
         android:layout_alignBaseline="@+id/startbtn"
         android:layout_alignBottom="@+id/startbtn"
@@ -57,6 +50,40 @@
         android:layout_alignParentStart="true"
         android:id="@+id/logButton"
         android:layout_alignEnd="@+id/accelerometerButton" />
+
+    <TextView
+        android:text="Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ubiquitous computing"
+        android:id="@+id/textView8"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView6"
+        android:layout_marginStart="18dp" />
+
+    <TextView
+        android:text="Business"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Business Name"
+        android:id="@+id/textBoxBusinessName"
+        android:layout_above="@+id/stopbtn"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/textView8" />
 
 
 </RelativeLayout>
